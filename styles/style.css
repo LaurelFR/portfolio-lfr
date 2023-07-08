@@ -100,6 +100,12 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  background: var(--secondary-color);
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -107,6 +113,16 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-preview {
+  padding: 120px 0;
 }
 
 .project-description {
@@ -172,7 +188,7 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
-  padding: 10px 14px;
+  padding: 15px 20px;
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
