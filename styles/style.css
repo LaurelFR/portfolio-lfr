@@ -121,6 +121,11 @@ p {
   border: 1px solid var(--branding-color);
 }
 
+.project {
+  background: var(--secondary-color);
+  border-radius: 6px;
+}
+
 .project-preview {
   padding: 120px 0;
 }
