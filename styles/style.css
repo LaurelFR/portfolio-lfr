@@ -77,6 +77,9 @@ p {
   font-size: 55px;
 }
 
+.content .intro-headline {
+  text-align: center;
+}
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -98,7 +101,8 @@ p {
 }
 
 .content {
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 850px;
 }
 
 .portrait {
@@ -120,6 +124,11 @@ p {
   background: var(--secondary-color);
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+}
+
+.see-projects {
+  text-align: center;
+  margin-top: 60px;
 }
 
 .btn-branding-outline {
