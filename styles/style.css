@@ -175,6 +175,7 @@ p {
   padding: 10px 20px;
   margin-right: 10px;
   border-radius: 4px;
+  margin-bottom: 15px;
 }
 
 .logo {
@@ -247,7 +248,7 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
@@ -265,8 +266,8 @@ footer .social-links a:hover {
     background: var(--secondary-color);
     background: linear-gradient(
       180deg,
-      var(--secondary-color) 46%,
-      #6c63ff 46%
+      var(--secondary-color) 42%,
+      #6c63ff 42%
     );
   }
 
@@ -275,7 +276,11 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
   .hero h2 {
-    font-size: 26px;
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 34px;
   }
 
   .portrait {
@@ -283,22 +288,22 @@ footer .social-links a:hover {
   }
 
   .content {
-    text-align: center;
     padding: 0;
   }
 
   .content h1 {
-    font-size: 36px;
+    font-size: 34px;
     line-height: 56px;
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 22px;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .skill {
-    margin-bottom: 15px;
   }
 
   .content h1.introduction {
@@ -308,5 +313,45 @@ footer .social-links a:hover {
   .learn-more {
     border-bottom: 1px dotted #6c63ff;
     padding-bottom: 50px;
+  }
+
+  .contact-content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    background: var(--secondary-color);
+    background: linear-gradient(
+      180deg,
+      var(--secondary-color) 43%,
+      #6c63ff 43%
+    );
+  }
+}
+
+@media (max-width: 386px) {
+  .hero {
+    background: var(--secondary-color);
+    background: linear-gradient(
+      180deg,
+      var(--secondary-color) 43%,
+      #6c63ff 43%
+    );
+  }
+}
+
+@media (max-width: 280px) {
+  .hero {
+    background: var(--secondary-color);
+    background: linear-gradient(
+      180deg,
+      var(--secondary-color) 56%,
+      #6c63ff 56%
+    );
+  }
+  .portrait {
+    max-width: 200px;
   }
 }
