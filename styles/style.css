@@ -43,10 +43,8 @@ p {
 }
 
 .hero {
-  /*
-  background: var(--secondary-color);*/
   background: var(--secondary-color);
-  background: linear-gradient(90deg, var(--secondary-color) 76%, #6c63ff 76%);
+  background: linear-gradient(90deg, var(--secondary-color) 78%, #6c63ff 78%);
   text-align: center;
   padding: 80px 20px;
 }
@@ -71,6 +69,18 @@ p {
 
 .content-container {
   padding: 60px 20px;
+}
+
+.about-content {
+  background: var(--secondary-color);
+}
+
+.about-text {
+  max-width: 850px;
+}
+
+.content.contact-content {
+  margin: 30px;
 }
 
 .content h1.introduction {
@@ -102,7 +112,6 @@ p {
 
 .content {
   margin: 30px auto;
-  max-width: 850px;
 }
 
 .portrait {
