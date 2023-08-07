@@ -288,7 +288,7 @@ footer .social-links a:hover {
   }
 
   .content h1 {
-    font-size: 44px;
+    font-size: 36px;
     line-height: 56px;
   }
 
@@ -299,5 +299,14 @@ footer .social-links a:hover {
 
   .skill {
     margin-bottom: 15px;
+  }
+
+  .content h1.introduction {
+    font-size: 36px;
+  }
+
+  .learn-more {
+    border-bottom: 1px dotted #6c63ff;
+    padding-bottom: 50px;
   }
 }
