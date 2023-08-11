@@ -183,6 +183,10 @@ p {
   max-height: 40px;
 }
 
+.form-label {
+  color: #0a424f;
+}
+
 nav {
   padding: 20px 0;
 }
