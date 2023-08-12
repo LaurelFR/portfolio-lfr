@@ -50,15 +50,15 @@
                     <form action="https://formspree.io/f/xleyjlla" method="POST" class="border p-3 rounded mb-3">
                         <div class="mb-3">
                             <label class="form-label">Name:</label>
-                            <input type="text" class="form-control" name="name" />
+                            <input type="text" class="form-control" name="name" required autofocus />
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Email Address:</label>
-                            <input type="email" name="_replyto" class="form-control" required autofocus />
+                            <input type="email" name="_replyto" class="form-control" required />
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Message:</label>
-                            <textarea name="message" class="form-control"></textarea>
+                            <textarea name="message" class="form-control" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-branding">Send</button>
                     </form>
