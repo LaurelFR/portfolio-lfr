@@ -157,7 +157,6 @@ p {
 }
 
 .project {
-  background: var(--secondary-color);
   border-radius: 6px;
 }
 
@@ -166,7 +165,9 @@ p {
 }
 
 .project-description {
+  background: var(--secondary-color);
   padding: 120px 60px;
+  border-radius: 6px;
 }
 
 .skill {
@@ -177,6 +178,11 @@ p {
   margin-right: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
+}
+
+.github-project {
+  font-size: 50px;
+  color: var(--branding-color);
 }
 
 .logo {
@@ -309,6 +315,7 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+    background: white;
   }
 
   .content h1.introduction {
@@ -318,6 +325,7 @@ footer .social-links a:hover {
   .learn-more {
     border-bottom: 1px dotted #6c63ff;
     padding-bottom: 50px;
+    justify-content: center;
   }
 
   .contact-content {
