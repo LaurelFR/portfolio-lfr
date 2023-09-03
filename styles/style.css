@@ -393,6 +393,10 @@ footer .social-links a:hover {
       #6c63ff 43%
     );
   }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 280px) {
